@@ -1,0 +1,16 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de caché y configuración de Python
+__pycache__/
+*.pyc
+.cache
+
+# Archivos de historial generados
+# Ignoramos estos archivos para que el repositorio plantilla quede limpio.
+# GitHub Actions de los usuarios se encargará de crear y manejar estos archivos en sus propios repositorios.
+*.json
+historial_*.md
+historial_*.jpg
